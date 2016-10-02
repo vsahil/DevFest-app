@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <CheckedTextView
+        android:text="Encourage Us!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkedTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="40sp"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar2" />
+
+    <Button
+        android:text="Done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rateone"
+        android:textSize="24sp"
+        android:onClick="OnClick" />
+</LinearLayout>
